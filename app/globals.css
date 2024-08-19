@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Outfit";
+  font-display: block;
+	src: url("/fonts/Outfit.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+  font-display: block;
+	src: url("/fonts/NunitoSans.woff2") format("woff2");
+}
+
+:root {
+	color-scheme: light dark;
+	color: rgb(255, 255, 255);
+	background-color: rgb(27, 27, 27);
+	background-image: -webkit-image-set(
+		url("/images/background.webp") type("image/webp"),
+		url("/images/background.avif") type("image/avif")
+	);
+	background-image: image-set(
+		url("/images/background.webp") type("image/webp"),
+		url("/images/background.avif") type("image/avif")
+	);
+	background-size: cover;
+
+	font-family: "Outfit", "Nunito Sans";
+	font-synthesis: none;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 768px) {
+	body {
+		background-image: -webkit-image-set(
+			url("/images/background.mobile.webp") type("image/webp"),
+			url("/images/background.mobile.avif") type("image/avif")
+		);
+		background-image: image-set(
+			url("/images/background.mobile.webp") type("image/webp"),
+			url("/images/background.mobile.avif") type("image/avif")
+		);
+		background-size: cover;
+	}
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Outfit";
+	src: url("/fonts/Outfit.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("/fonts/Jost.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("/fonts/NunitoSans.woff2") format("woff2");
+}
+
+:root {
+	color-scheme: light dark;
+	color: rgb(255, 255, 255);
+	background-color: #101112;
+
+	font-family: "Outfit", "Nunito Sans";
+	font-synthesis: none;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

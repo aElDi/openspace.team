@@ -1,0 +1,41 @@
+{
+	"Header": {
+		"platform": "Platform",
+		"blog": "Blog",
+		"changelog": "Status",
+		"contact": "Contact",
+		"changeLang": "Change language"
+	},
+	"Home": {
+		"desc": "The new free platform for team-based project development",
+		"card1": {
+			"title": "Developers Profiles",
+			"desc": "Detailed profile pages for developers. Skills, programming languages and projects that's all it takes."
+		},
+		"card2": {
+			"title": "Work for a Porfolio",
+			"desc": "Work on the project as a team. It will go to all of you in your portfolio, which will help you when you get a job."
+		},
+		"card3": {
+			"title": "Find Teams",
+			"desc": "Just create a project with your idea. Our platform will recommend it to your possible teammates."
+		},
+		"card4": {
+			"title": "Potential Employment",
+			"desc": "Our platform partners with companies. They may notice your project and contact you for employment."
+		}
+	},
+	"EmailForm": {
+		"btnLabel": "Follow",
+		"invalidEmailErrorMessage": "Please enter a correct email",
+		"serverErrorMessage": "Sorry, error occured",
+		"thank": "Thank you!"
+	},
+	"Contact": {
+		"title": "Contact us"
+	},
+	"StatusPage": {
+		"title": "Project status",
+		"caption": "Our team is diligently working on the development of the OpenSpace project. In this project, we tackle numerous interesting and challenging tasks that require attention and a creative approach."
+	}
+}
