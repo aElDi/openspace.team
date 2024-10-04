@@ -18,8 +18,8 @@ const links = [
 	{
 		title: "Email",
 		icon: "/icons/fluent_mail-48-filled.svg",
-		href: "mailto:openspacecommunity@yandex.ru",
-		text: "openspacecommunity@yandex.ru",
+		href: "mailto:support@openspace.team",
+		text: "support@openspace.team",
 	},
 	{
 		title: "Discord",
